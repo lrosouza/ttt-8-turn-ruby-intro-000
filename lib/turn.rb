@@ -38,7 +38,7 @@ def turn(board)
   puts "Please enter 1-9:"
   user_input = gets .strip
   input_to_index(user_input)
-  if input_to_index(user_input) < 9
+  if input_to_index(user_input) < 10
     puts "Menor do que 9"
   else
     puts "Vai de novo!"

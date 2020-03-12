@@ -40,8 +40,6 @@ def turn(board)
   input_to_index(user_input)
   if input_to_index(user_input) < 9
     move(board, converted_input, user_input)
-  else
-
-  end
+    end
 
 end

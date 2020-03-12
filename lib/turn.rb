@@ -39,9 +39,9 @@ def turn(board)
   user_input = gets .strip
   input_to_index(user_input)
   if input_to_index(user_input) < 9
-    puts "Seu número #{user_input} é Menor do que 10"
+    move(board, converted_input, user_input)
   else
-    puts "Vai de novo!"
+    
   end
 
 end

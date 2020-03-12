@@ -40,6 +40,8 @@ def turn(board)
   input_to_index(user_input)
   if input_to_index(user_input) < 9
     puts "Vai de novo!"
+  else
+    puts "Deu certo!"
   end
 
 end

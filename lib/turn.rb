@@ -39,7 +39,7 @@ def turn(board)
   user_input = gets .strip
   input_to_index(user_input)
   if input_to_index(user_input) < 9
-    move(board, input_to_index, user_input)
+    move
   else
 
   end
